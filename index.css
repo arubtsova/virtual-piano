@@ -15,7 +15,9 @@ body {
     height: 400px;
     background-color: blanchedalmond;
     border: black;
-    
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
     
     
 }
@@ -25,6 +27,9 @@ body {
     height: 400px;
     background-color: blanchedalmond;
     border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
     
 }
 
@@ -33,6 +38,9 @@ body {
     height: 400px;
     background-color: blanchedalmond;
     border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
     
 }
 
@@ -41,6 +49,9 @@ body {
     height: 400px;
     background-color: blanchedalmond;
     border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
     
 }
 
@@ -49,7 +60,10 @@ body {
     height: 400px;
     background-color: blanchedalmond;
     border-color: black;
-    
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+
 }
 
 .key-lya{
@@ -57,8 +71,9 @@ body {
     height: 400px;
     background-color: blanchedalmond;
     border-color: black;
-    
-    
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
     
 }
 
@@ -67,7 +82,10 @@ body {
     height: 400px;
     background-color: blanchedalmond;
     border-color: black;
-    
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+
 }
 
 
