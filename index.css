@@ -1,3 +1,73 @@
 body {
     background-color: darkslategray;
 }
+
+.keys__key_piano{
+    display: flex;
+}
+
+.key_key-white{
+    display: flex;
+}
+
+.key-do{
+    width: 100px;
+    height: 400px;
+    background-color: blanchedalmond;
+    border: black;
+    
+    
+    
+}
+
+.key-re{
+    width: 100px;
+    height: 400px;
+    background-color: blanchedalmond;
+    border-color: black;
+    
+}
+
+.key-mi{
+    width: 100px;
+    height: 400px;
+    background-color: blanchedalmond;
+    border-color: black;
+    
+}
+
+.key-fa{
+    width: 100px;
+    height: 400px;
+    background-color: blanchedalmond;
+    border-color: black;
+    
+}
+
+.key-sol{
+    width: 100px;
+    height: 400px;
+    background-color: blanchedalmond;
+    border-color: black;
+    
+}
+
+.key-lya{
+    width: 100px;
+    height: 400px;
+    background-color: blanchedalmond;
+    border-color: black;
+    
+    
+    
+}
+
+.key-si{
+    width: 100px;
+    height: 400px;
+    background-color: blanchedalmond;
+    border-color: black;
+    
+}
+
+
