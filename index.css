@@ -1,11 +1,13 @@
 body {
     background-color: darkslategray;
+
 }
 
 .header{
     display: flex;
     justify-content: center;
     color: aliceblue;
+
 }
 
 .bottoms-activ{
@@ -13,26 +15,33 @@ body {
     flex-direction: row;
     justify-content: center;
     padding: 70px;
+
 }
 
-.buttom-white{
+.button-white{
     border-radius: 5px;
+    height: 35px;
+    width: 120px;
     
 }
 
-.buttom-black{
+.button-black{
     border-radius: 5px;
+    height: 35px;
+    width: 120px;
+
 }
 
 
 .keys__key_piano{
     display: flex;
+    justify-content: center;
+
 }
 
-.key_key-white{
+.keys_key-white{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+
 }
 
 .key-do{
@@ -43,7 +52,6 @@ body {
     border-style: solid;
     border-width: 1px;
     border-radius: 8px;
-    
     
 }
 
@@ -114,10 +122,16 @@ body {
 }
 
 
-.key_key-black{
+.keys_note-white{
+    font-size: 25px;
+    margin-top: 350px;
+}
+
+
+.keys_key-black{
+    position: absolute;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+
 }
 
 
@@ -125,48 +139,45 @@ body {
     width: 60px;
     height: 250px;
     background-color: rgb(8, 7, 5);
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
     border-radius: 8px;
+    margin-right: 40px;
+    
 }
 
 .key-rediez{
     width: 60px;
     height: 250px;
     background-color: rgb(8, 7, 5);
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
     border-radius: 8px;
+    margin-right: 90px;
+
 }
 
 .key-fadiez{
     width: 60px;
     height: 250px;
     background-color: rgb(8, 7, 5);
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
     border-radius: 8px;
+    margin-right: 40px;
+    margin-left: 50px;
+
 }
+
 
 .key-soldiez{
     width: 60px;
     height: 250px;
     background-color: rgb(8, 7, 5);
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
     border-radius: 8px;
+    margin-right: 40px;
+
 }
 
 .key-lyadiez{
     width: 60px;
     height: 250px;
     background-color: rgb(8, 7, 5);
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
     border-radius: 8px;
+    margin-right: 10px;
+
 }
