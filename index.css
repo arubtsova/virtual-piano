@@ -125,6 +125,14 @@ body {
 .keys_note-white{
     font-size: 25px;
     margin-top: 350px;
+    text-align: center;
+}
+
+.keys_note-black{
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+
 }
 
 
