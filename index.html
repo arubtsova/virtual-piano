@@ -4,38 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>virtual-piano</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
-       <h1 class="header__piano">Virtual Piano</h1> 
+       <h1 id="header__piano">Virtual Piano</h1> 
     </header>
         <div class="bottoms-activ">
-            <input class='button-white' type="button" value="White">
+            <input id='button-white' type="button" value="White">
             <input class="button-black" type="button" value="Black">
         </div>
+        
             <div class="keys__key_piano">
-                <div class="keys_key-white">
-                    <div class="key-do"><p class="keys_note-white">A</p></div>
-                    <div class="key-re"><p class="keys_note-white">S</p></div>
-                    <div class="key-mi"><p class="keys_note-white">D</p></div>
-                    <div class="key-fa"><p class="keys_note-white">F</p></div>
-                    <div class="key-sol"><p class="keys_note-white">D</p></div>
-                    <div class="key-lya"><p class="keys_note-white">G</p></div>
-                    <div class="key-si"><p class="keys_note-white">H</p></div>
+                <div data-key="65" class="key-white" data-note="">
+                    <span class="hints">A</span>
                 </div>
-                    <div class="keys_key-black">
-                        <div class="key-dodiez"><p class="keys_note-black">W</p></div>
-                        <div class="key-rediez"><p class="keys_note-black">E</p></div>
-                        <div class="key-fadiez"><p class="keys_note-black">T</p></div>
-                        <div class="key-soldiez"><p class="keys_note-black">Y</p></div>
-                        <div class="key-lyadiez"><p class="keys_note-black">Y</p></div>
-                    </div>
+                <div data-key="87" class="key-black" data-note="">
+                    <span class="hints">W</span>
+                </div>
+                <div data-key="83" class="key-white" data-note="">
+                    <span class="hints">S</span>
+                </div>
+                <div data-key="69" class="key-black" data-note="">
+                    <span class="hints">E</span>
+                </div>
+                <div data-key="68" class="key-white" data-note="">
+                    <span class="hints">D</span>
+                </div>
+                <div data-key="70" class="key-black" data-note="">
+                    <span class="hints">F</span>
+                </div>
+                <div data-key="84" class="key-white" data-note="">
+                    <span class="hints">T</span>
+                </div>
+                <div data-key="71" class="key-black" data-note="">
+                    <span class="hints">G</span>
+                </div>
+                <div data-key="89" class="key-white" data-note="">
+                    <span class="hints">Y</span>
+                </div>
+                <div data-key="72" class="key-black" data-note="">
+                    <span class="hints">H</span>
+                </div>
+                <div data-key="85" class="key-white" data-note="">
+                    <span class="hints">U</span>
+                </div>
+                <div data-key="74" class="key-black" data-note="">
+                    <span class="hints">J</span>
+                </div>
+                <div data-key="75" class="key-white" data-note="">
+                    <span class="hints">K</span>
+                </div>
+                <div data-key="79" class="key-black" data-note="">
+                    <span class="hints">O</span>
+                </div>
+                <div data-key="76" class="key-white" data-note="">
+                    <span class="hints">L</span>
+                </div>
+                <div data-key="80" class="key-black" data-note="">
+                    <span class="hints">P</span>
+                </div>
+                <div data-key="186" class="key-white" data-note="">
+                    <span class="hints">;</span>
+                </div>
+
                 </div>
         <footer>
 
             </footer>
 
-        <script src= "index.js"> </script>
+        <script src= "script.js"> </script>
 </body>
 </html>

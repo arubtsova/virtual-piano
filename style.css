@@ -1,0 +1,49 @@
+body {
+    background-color: darkslategray;
+
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+
+}
+
+.bottoms-activ{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 70px;
+
+}
+
+#button-white{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    height: 35px;
+    width: 120px;
+    
+}
+
+.button-black{
+    border-radius: 5px;
+    height: 35px;
+    width: 120px;
+
+}
+
+
+.keys__key_piano{
+    display: flex;
+    justify-content: center;
+
+}
+
+.keys_key-white{
+    display: flex;
+
+}
+
+
